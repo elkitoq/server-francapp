@@ -8,7 +8,7 @@ const router = require('./routes/worksRoutes');
 
 const PORT = process.env.PORT || 4000
 
-const uri = "mongodb://localhost:27017/works";
+const uri = "mongodb+srv://elkitoq:<Kiest115>@ttseu.u5a7y.mongodb.net/test";
 
 mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 
